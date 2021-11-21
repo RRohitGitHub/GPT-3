@@ -22,7 +22,6 @@
 
 .gpt3__blog-container{
     display: flex;
-
 }
 
 .gpt3__blog-container_groupA{
@@ -33,14 +32,13 @@
 .gpt3__blog-container_groupB{
     flex: 1;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 2rem;
 }
 
 @media screen and (max-width:990px) {
     .gpt3__blog-container{
         flex-direction: column-reverse;
-    
     }
 
     .gpt3__blog-container_groupA{
